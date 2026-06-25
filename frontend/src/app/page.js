@@ -200,7 +200,7 @@ export default function Home() {
       }
       {steps == 3 &&
         <div className="fixed inset-0 z-30 flex items-center justify-center bg-black/50" >
-          <div className="scanlines sm:max-h-2/3 sm:w-4/7 px-1 py-1.5 bg-[#1a3d1f] rounded-xl border-4 border-[#0b1e0b] shadow-2xl shadow-black" >
+          <div className="scanlines sm:max-h-full sm:w-4/7 px-1 py-1.5 bg-[#1a3d1f] rounded-xl border-4 border-[#0b1e0b] shadow-2xl shadow-black" >
             <div className="sm:p-8 p-4 bg-[#0b1e0b] rounded-lg border-4 border-[#709978]" >
               <p className="mb-3 [text-shadow:2px_2px_8px_#dc2626]" >Prove Your Loyalty</p>
               <p className="text-xs text-gray-400 mb-6" >Step 02 / 02 &bull; complete to forge your card</p>
