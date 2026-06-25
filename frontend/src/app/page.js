@@ -220,7 +220,7 @@ export default function Home() {
                     <p className="text-gray-400 sm:text-[10px] text-[8px]" >Repost lumions post</p>
                   </div>
                 </div>
-                <a onClick={() => setTasks(prev => ({ ...prev, task2: true }))} href="https://x.com/lumionseth/status/2070105446506181020?s=20" target="_blank" rel="noopener noreferrer" className="pixel-btn pixel-btn-sm" >REPOST</a>
+                <a onClick={() => setTasks(prev => ({ ...prev, task2: true }))} href="https://x.com/lumionseth/status/2070107958944694728?s=46" target="_blank" rel="noopener noreferrer" className="pixel-btn pixel-btn-sm" >REPOST</a>
               </div>
               <div className="border-4 border-[#709978] rounded-lg w-full sm:px-6 sm:py-4 p-2 mb-8 flex items-center justify-between gap-6 text-xl bg-[#1a3d1f]" >
                 <div className="flex sm:gap-4 gap-2 items-center" >
@@ -230,7 +230,7 @@ export default function Home() {
                     <p className="text-gray-400 sm:text-[10px] text-[8px]" >Show some love</p>
                   </div>
                 </div>
-                <a onClick={() => setTasks(prev => ({ ...prev, task3: true }))} href="https://x.com/lumionseth/status/2070105446506181020?s=20" target="_blank" rel="noopener noreferrer" className="pixel-btn pixel-btn-sm" >LIKE</a>
+                <a onClick={() => setTasks(prev => ({ ...prev, task3: true }))} href="https://x.com/lumionseth/status/2070107958944694728?s=46" target="_blank" rel="noopener noreferrer" className="pixel-btn pixel-btn-sm" >LIKE</a>
               </div>
               <button onClick={createCard} className="border-4 border-[#709978] text-gray-300 rounded-lg w-full px-6 py-4 shadow-xl shadow-black cursor-pointer bg-[#396740] text-sm sm:text-base" >COMPLETE ALL TASKS</button>
             </div>
