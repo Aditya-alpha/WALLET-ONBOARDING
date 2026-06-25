@@ -1,6 +1,5 @@
 "use client"
 
-import Image from "next/image";
 import { useState } from "react";
 import { IoMdPlay } from "react-icons/io";
 import { TbAt } from "react-icons/tb";
@@ -32,7 +31,7 @@ export default function Home() {
       return;
     }
     try {
-      let response = await fetch("http://localhost:8000/checkaddress", {
+      let response = await fetch("https://wallet-onboarding.onrender.com/checkaddress", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -70,7 +69,7 @@ export default function Home() {
       return;
     }
     try {
-      let response = await fetch("http://localhost:8000/save", {
+      let response = await fetch("https://wallet-onboarding.onrender.com/save", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
