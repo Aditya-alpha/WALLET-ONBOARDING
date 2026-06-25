@@ -95,7 +95,7 @@ export default function Home() {
 
     const img = new window.Image();
 
-    img.src = "/lumicard.png";
+    img.src = "/card1.png";
 
     await document.fonts.load('20px "PressStart"');
 
@@ -114,8 +114,8 @@ export default function Home() {
 
       ctx.fillText(
         xhandle.toUpperCase(),
-        405,
-        132
+        412,
+        134
       );
       ctx.fillText(
         randomCharacterType,
@@ -124,8 +124,8 @@ export default function Home() {
       );
       ctx.fillText(
         lumiledgerNo.toString(),
-        483,
-        238
+        485,
+        240
       );
       const imageUrl = canvas.toDataURL("image/png");
 
