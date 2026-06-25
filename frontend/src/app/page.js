@@ -24,10 +24,8 @@ export default function Home() {
       return;
     }
 
-    const evmRegex = /^0x[a-fA-F0-9]{40}$/;
-
-    if (!evmRegex.test(trimmedAddress)) {
-      alert("Please enter a valid EVM wallet address");
+    if (!trimmedAddress.startsWith("0x")) {
+      alert("Wallet address must start with 0x");
       return;
     }
     try {
